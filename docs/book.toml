@@ -1,0 +1,5 @@
+[book]
+authors = ["Luke Chu"]
+language = "en"
+src = "src"
+title = "Tailarc"

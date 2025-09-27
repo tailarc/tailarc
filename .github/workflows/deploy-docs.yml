@@ -1,0 +1,39 @@
+# GitHub workflow to automatically build mdbook in docs/ folder and publish to GitHub Pages
+
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: install mdbook
+        run: |
+          mkdir bin
+          curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.52/mdbook-v0.4.52-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+
+      - name: build mdbook
+        run: |
+          bin/mdbook build docs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/book/
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+
+    steps:
+      - uses: actions/deploy-pages@v4
