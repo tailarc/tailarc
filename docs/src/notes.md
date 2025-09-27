@@ -6,7 +6,7 @@ Xiao Lion, Xiao Black Bear and Arcty in game? Not as Player Characters. Part of 
 
 Some kind of duality? (Persona 5) But lucky number 3 (triple parallel worlds?)
 
-Form of government: feudalism? oligarchy? parlimentary?
+Form of government: feudalism? oligarchy? parliamentary?
 
 ## Things to incorporate
 
@@ -23,4 +23,4 @@ Form of government: feudalism? oligarchy? parlimentary?
 ## Ideas
 
 PC is called 'Main Character', Xiao Lion called 'Big Real Lion', etc. &rarr; NPCs named after their descriptions.
-Only way to get rid of the evil is to leave. To be the game you have to leave the game.
+Only way to get rid of the evil is to leave. To beat the game you have to leave the game.
