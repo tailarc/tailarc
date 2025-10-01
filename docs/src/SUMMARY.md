@@ -1,8 +1,14 @@
 # Summary
 
 - [Tailarc](./index.md)
-- [World](./world.md)
-    - [Zaumbeechee](./world/zaumbeechee.md)
-    - [Nopo](./world/nopo.md)
+- [Races](./races.md)
+- [Regions](./regions.md)
+    - [Lionfell](./regions/lionfell.md)
+    - [Bearia](./regions/bearia.md)
+    - [Foxwild](./regions/foxwild.md)
+- [Cities](./cities.md)
+    - [Zaumbeechee](./cities/zaumbeechee.md)
+    - [Nopo](./cities/nopo.md)
+    - [Raising Sharker](./cities/raising_sharker.md)
 - [Notes](./notes.md)
 
