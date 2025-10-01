@@ -7,7 +7,7 @@
     - [Bearia](./regions/bearia.md)
     - [Foxwild](./regions/foxwild.md)
 - [Cities](./cities.md)
-    - [Zaumbeechee](./cities/zaumbeechee.md)
+    - [Zombichi](./cities/zombichi.md)
     - [Nopo](./cities/nopo.md)
     - [Raising Sharker](./cities/raising_sharker.md)
 - [Notes](./notes.md)
